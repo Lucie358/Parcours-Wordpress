@@ -1,0 +1,148 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header-bar {
+    border-bottom: 3px solid white;
+    width: 60px;
+    margin: 1rem auto;
+}
+.list-group-header{
+    display: flex;
+    justify-content: flex-end;
+}
+.list-group-item-header{
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    color: white;
+}
+.list-group-item-header a {
+    color:white;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 400ms;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0 1rem;
+}
+
+aside li a {
+    text-transform: uppercase;
+}
+
+main {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+main section .btn {
+    font-size: 0.8rem;
+    font-weight: 800;
+    border-color: lightgrey;
+}
+
+/*
+* On vient donner de nouvelles valeurs aux éléments utilisant les classes Bootstrap
+* => "surcharger" bootstrap
+*/
+article.card {
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 0.625rem;
+}
+
+.card-footer {
+    background: none;
+    border: 0;
+    padding-top: 0;
+}
+
+.card-header {
+    background-color: #3d1d67;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+article h2.card-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+article p.card-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+article .card-body {
+    padding-bottom: 0.625rem;
+}
+
+/*
+* On peut ajouter nos styles qui ne surchargent pas bootstrap
+*/
+.header {
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    margin-bottom: 1em;
+}
+
+footer .social-networks {
+    margin: 10px 0;
+}
+
+footer .social-networks a {
+    font-size: 40px;
+    color: black;
+}
+
+footer .links a {
+    color: inherit;
+}
+
+
+footer .social-networks a:hover,
+footer .links a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.row {
+    margin:0;
+}
+#comment{
+    width: 60%;
+}
